@@ -30,7 +30,7 @@ class TestCase extends Orchestra
         //config()->set('database.default', 'testing');
         Schema::dropAllTables();
 
-        $migration = include __DIR__.'/../database/migrations/create_disk-monitor_logs_table.php';
+        $migration = include __DIR__.'/../database/migrations/create_disk_monitor_logs_table.php';
         $migration->up();
     }
 }
