@@ -1,15 +1,19 @@
 <?php
 
-  namespace NeoNiche\AppMonitor\Models;
+namespace NeoNiche\AppMonitor\Models;
 
-  use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Model;
 
-  class DiskMonitorLog extends Model
-  {
-      protected $guarded = [];
+/**
+ *@property string $disk_name
+ *@property int $file_count
+ */
+class DiskMonitorLog extends Model
+{
+    protected $guarded = [];
 
-      public static function last(): ?self
-      {
-          return self::latest()->first();
-      }
-  }
+    public static function last(): ?self
+    {
+        return self::latest()->first();
+    }
+}

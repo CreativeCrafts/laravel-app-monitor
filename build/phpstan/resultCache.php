@@ -1931,7 +1931,7 @@ return [
   ),
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Commands/AppMonitorCommand.php' => 
   array (
-    'fileHash' => 'ab0d5dc6f5df179fb2fe498e7fa3ec9ebe8c459d',
+    'fileHash' => '166bb582515d273f3aa19dd3bfbf9709ee5bb6f9',
     'dependentFiles' => 
     array (
       0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/AppMonitorServiceProvider.php',
@@ -1942,6 +1942,14 @@ return [
     'fileHash' => 'f9c6c38af509f227028cc727733f60b580cdbc26',
     'dependentFiles' => 
     array (
+    ),
+  ),
+  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Models/DiskMonitorLog.php' => 
+  array (
+    'fileHash' => '29198b7d827fa29b1e3f3788584b500b8657d9c7',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Commands/AppMonitorCommand.php',
     ),
   ),
 ),
@@ -2147,6 +2155,80 @@ return [
            'final' => false,
            'static' => true,
            'returnType' => NULL,
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Models/DiskMonitorLog.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'NeoNiche\\AppMonitor\\Models\\DiskMonitorLog',
+       'phpDoc' => 
+      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
+         'phpDocString' => '/**
+   *@property string $disk_name
+   *@property int $file_count
+   */',
+         'namespace' => 'NeoNiche\\AppMonitor\\Models',
+         'uses' => 
+        array (
+          'model' => 'Illuminate\\Database\\Eloquent\\Model',
+        ),
+         'constUses' => 
+        array (
+        ),
+      )),
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Illuminate\\Database\\Eloquent\\Model',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'guarded',
+          ),
+           'phpDoc' => NULL,
+           'type' => NULL,
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'last',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => '?self',
            'parameters' => 
           array (
           ),

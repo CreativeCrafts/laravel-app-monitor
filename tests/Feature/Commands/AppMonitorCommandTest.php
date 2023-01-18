@@ -4,7 +4,7 @@
   use NeoNiche\AppMonitor\Models\DiskMonitorLog;
 
   beforeEach(function () {
-    Storage::fake('local');
+      Storage::fake('local');
   });
 
   it('can log file count for a disk', function () {
