@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="2" assertions="6" errors="0" warnings="0" failures="0" skipped="0" time="0.135483">
-    <testsuite name="P\Tests\ExampleTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.071748">
-      <testcase name="it can test" assertions="1" time="0.071748"/>
+  <testsuite name="" tests="4" assertions="13" errors="0" warnings="0" failures="0" skipped="0" time="0.191809">
+    <testsuite name="P\Tests\Feature\Commands\AppMonitorCommandTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="2" assertions="11" errors="0" warnings="0" failures="0" skipped="0" time="0.165851">
+      <testcase name="it can log file count for a disk" assertions="5" time="0.137463"/>
+      <testcase name="it can log file count for multiple disks" assertions="6" time="0.028388"/>
     </testsuite>
-    <testsuite name="P\Tests\Feature\Commands\AppMonitorCommandTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="1" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.063734">
-      <testcase name="it can log file count for a disk" assertions="5" time="0.063734"/>
+    <testsuite name="P\Tests\Feature\Actions\LogDiskFileCountTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.015827">
+      <testcase name="it can log disk metrics to the database" assertions="1" time="0.015827"/>
+    </testsuite>
+    <testsuite name="P\Tests\ExampleTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.010131">
+      <testcase name="it can test" assertions="1" time="0.010131"/>
     </testsuite>
   </testsuite>
 </testsuites>

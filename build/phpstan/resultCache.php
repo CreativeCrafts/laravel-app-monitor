@@ -1895,7 +1895,7 @@ return [
 	'dependencies' => array (
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/config/app-monitor.php' => 
   array (
-    'fileHash' => 'f5369641a2d1c37fe22dfe1075abe230def933cd',
+    'fileHash' => '4d8eef9eb8f7342edd14269ab3eef6f8aedc2cac',
     'dependentFiles' => 
     array (
     ),
@@ -1914,12 +1914,12 @@ return [
     array (
     ),
   ),
-  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/AppMonitor.php' => 
+  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Actions/LogDiskFileCount.php' => 
   array (
-    'fileHash' => '5ffdcc31d1670b1d87df5fe8916c1eca67245434',
+    'fileHash' => '97e3aed50656a1479e986553bbfb7d17d3107b68',
     'dependentFiles' => 
     array (
-      0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Facades/AppMonitor.php',
+      0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Commands/AppMonitorCommand.php',
     ),
   ),
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/AppMonitorServiceProvider.php' => 
@@ -1931,34 +1931,27 @@ return [
   ),
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Commands/AppMonitorCommand.php' => 
   array (
-    'fileHash' => '166bb582515d273f3aa19dd3bfbf9709ee5bb6f9',
+    'fileHash' => 'c63980c7ca9ff45ebbe8fed6bb03b41754709b40',
     'dependentFiles' => 
     array (
       0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/AppMonitorServiceProvider.php',
     ),
   ),
-  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Facades/AppMonitor.php' => 
-  array (
-    'fileHash' => 'f9c6c38af509f227028cc727733f60b580cdbc26',
-    'dependentFiles' => 
-    array (
-    ),
-  ),
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Models/DiskMonitorLog.php' => 
   array (
-    'fileHash' => '29198b7d827fa29b1e3f3788584b500b8657d9c7',
+    'fileHash' => 'dff5dd67b5c54ff7fdef630176e564f33fa3684a',
     'dependentFiles' => 
     array (
-      0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Commands/AppMonitorCommand.php',
+      0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Actions/LogDiskFileCount.php',
     ),
   ),
 ),
 	'exportedNodesCallback' => static function (): array { return array (
-  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/AppMonitor.php' => 
+  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Actions/LogDiskFileCount.php' => 
   array (
     0 => 
     \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'NeoNiche\\AppMonitor\\AppMonitor',
+       'name' => 'NeoNiche\\AppMonitor\\Actions\\LogDiskFileCount',
        'phpDoc' => NULL,
        'abstract' => false,
        'final' => false,
@@ -1974,6 +1967,35 @@ return [
       ),
        'statements' => 
       array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'execute',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => true,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+            0 => 
+            \PHPStan\Dependency\ExportedNode\ExportedParameterNode::__set_state(array(
+               'name' => 'metrics',
+               'type' => 'array',
+               'byRef' => false,
+               'variadic' => false,
+               'hasDefault' => false,
+               'attributes' => 
+              array (
+              ),
+            )),
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
       ),
        'attributes' => 
       array (
@@ -2111,63 +2133,6 @@ return [
       ),
     )),
   ),
-  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Facades/AppMonitor.php' => 
-  array (
-    0 => 
-    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
-       'name' => 'NeoNiche\\AppMonitor\\Facades\\AppMonitor',
-       'phpDoc' => 
-      \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
-         'phpDocString' => '/**
- * @see \\NeoNiche\\AppMonitor\\AppMonitor
- */',
-         'namespace' => 'NeoNiche\\AppMonitor\\Facades',
-         'uses' => 
-        array (
-          'facade' => 'Illuminate\\Support\\Facades\\Facade',
-        ),
-         'constUses' => 
-        array (
-        ),
-      )),
-       'abstract' => false,
-       'final' => false,
-       'extends' => 'Illuminate\\Support\\Facades\\Facade',
-       'implements' => 
-      array (
-      ),
-       'usedTraits' => 
-      array (
-      ),
-       'traitUseAdaptations' => 
-      array (
-      ),
-       'statements' => 
-      array (
-        0 => 
-        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
-           'name' => 'getFacadeAccessor',
-           'phpDoc' => NULL,
-           'byRef' => false,
-           'public' => false,
-           'private' => false,
-           'abstract' => false,
-           'final' => false,
-           'static' => true,
-           'returnType' => NULL,
-           'parameters' => 
-          array (
-          ),
-           'attributes' => 
-          array (
-          ),
-        )),
-      ),
-       'attributes' => 
-      array (
-      ),
-    )),
-  ),
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Models/DiskMonitorLog.php' => 
   array (
     0 => 
@@ -2176,9 +2141,9 @@ return [
        'phpDoc' => 
       \PHPStan\Dependency\ExportedNode\ExportedPhpDocNode::__set_state(array(
          'phpDocString' => '/**
-   *@property string $disk_name
-   *@property int $file_count
-   */',
+ *@property string $disk_name
+ *@property int $file_count
+ */',
          'namespace' => 'NeoNiche\\AppMonitor\\Models',
          'uses' => 
         array (
@@ -2219,6 +2184,22 @@ return [
           ),
         )),
         1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'casts',
+          ),
+           'phpDoc' => NULL,
+           'type' => NULL,
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        2 => 
         \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
            'name' => 'last',
            'phpDoc' => NULL,
