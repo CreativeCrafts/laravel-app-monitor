@@ -2,9 +2,9 @@
 
 namespace NeoNiche\AppMonitor;
 
+use NeoNiche\AppMonitor\Commands\AppMonitorCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use NeoNiche\AppMonitor\Commands\AppMonitorCommand;
 
 class AppMonitorServiceProvider extends PackageServiceProvider
 {
