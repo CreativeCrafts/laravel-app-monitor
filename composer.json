@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "neoniche/laravel-app-monitor",
+    "description": "A simple way to monitor laravel application disk usage and other resources.",
     "keywords": [
-        ":vendor_name",
+        "NeoNiche",
         "laravel",
-        ":package_slug"
+        "laravel-app-monitor"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/neoniche/laravel-app-monitor",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Godspower Oduose",
+            "email": "oduose4eva@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "NeoNiche\\AppMonitor\\": "src",
+            "NeoNiche\\AppMonitor\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "NeoNiche\\AppMonitor\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -61,10 +61,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "NeoNiche\\AppMonitor\\AppMonitorServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "AppMonitor": "NeoNiche\\AppMonitor\\Facades\\AppMonitor"
             }
         }
     },
