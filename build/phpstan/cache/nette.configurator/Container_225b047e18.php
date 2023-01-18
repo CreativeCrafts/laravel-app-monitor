@@ -6,7 +6,7 @@
 // source: /Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-deprecation-rules/rules.neon
 // source: /Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-phpunit/extension.neon
 // source: /Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-phpunit/rules.neon
-// source: /Users/prince/Projects/NeoNiche/laravel-app-monitor/phpstan.neon.dist
+// source: /Users/prince/Projects/NeoNiche/laravel-app-monitor/phpstan.neon
 // source: array
 
 /** @noinspection PhpParamsInspection,PhpMethodMayBeStaticInspection */
@@ -1965,7 +1965,7 @@ class Container_225b047e18 extends _PHPStan_980551bf2\Nette\DI\Container
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-deprecation-rules/rules.neon',
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-phpunit/extension.neon',
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-phpunit/rules.neon',
-				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/phpstan.neon.dist',
+				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/phpstan.neon',
 			],
 			'composerAutoloaderProjectPaths' => [
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/phpstan/..',
@@ -2487,7 +2487,7 @@ class Container_225b047e18 extends _PHPStan_980551bf2\Nette\DI\Container
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-deprecation-rules/rules.neon',
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-phpunit/extension.neon',
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-phpunit/rules.neon',
-				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/phpstan.neon.dist',
+				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/phpstan.neon',
 			],
 			$this->parameters['analysedPaths'],
 			[
