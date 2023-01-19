@@ -22,10 +22,10 @@ class AppMonitorServiceProvider extends PackageServiceProvider
 
     public function packageRegistered(): void
     {
-      Route::macro('appMonitor', function (string $prefix = 'app-monitor') {
-        Route::prefix($prefix)->group(function () {
-          Route::get('/disk-file-logs', [DiskFileLogController::class, 'index']);
+        Route::macro('appMonitor', function (string $prefix = 'app-monitor') {
+            Route::prefix($prefix)->group(function () {
+                Route::get('/disk-file-logs', [DiskFileLogController::class, 'index']);
+            });
         });
-      });
     }
 }

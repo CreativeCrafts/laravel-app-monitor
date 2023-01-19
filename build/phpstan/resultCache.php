@@ -1891,6 +1891,15 @@ return [
 	'errorsCallback' => static function (): array { return array (
 ); },
 	'collectedDataCallback' => static function (): array { return array (
+  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Http/Controllers/DiskFileLogController.php' => 
+  array (
+    0 => 
+    \PHPStan\Collectors\CollectedData::__set_state(array(
+       'data' => 'app-monitor::diskFileLogEntries',
+       'filePath' => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Http/Controllers/DiskFileLogController.php',
+       'collectorType' => 'NunoMaduro\\Larastan\\Collectors\\UsedViewFunctionCollector',
+    )),
+  ),
 ); },
 	'dependencies' => array (
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/config/app-monitor.php' => 
@@ -1924,7 +1933,7 @@ return [
   ),
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/AppMonitorServiceProvider.php' => 
   array (
-    'fileHash' => 'd6b47b616ea13bdf540e90e84fdb5d1efc408417',
+    'fileHash' => '940d8e9a460540f35ec4d3596f67889e9a816f80',
     'dependentFiles' => 
     array (
     ),
@@ -1937,12 +1946,21 @@ return [
       0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/AppMonitorServiceProvider.php',
     ),
   ),
+  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Http/Controllers/DiskFileLogController.php' => 
+  array (
+    'fileHash' => '084d2fad20743cc2b36bea2342521d14435dbfed',
+    'dependentFiles' => 
+    array (
+      0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/AppMonitorServiceProvider.php',
+    ),
+  ),
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Models/DiskMonitorLog.php' => 
   array (
     'fileHash' => 'dff5dd67b5c54ff7fdef630176e564f33fa3684a',
     'dependentFiles' => 
     array (
       0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Actions/LogDiskFileCount.php',
+      1 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Http/Controllers/DiskFileLogController.php',
     ),
   ),
 ),
@@ -2051,6 +2069,24 @@ return [
           array (
           ),
         )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'packageRegistered',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'void',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
       ),
        'attributes' => 
       array (
@@ -2120,6 +2156,50 @@ return [
            'final' => false,
            'static' => false,
            'returnType' => 'int',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
+  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Http/Controllers/DiskFileLogController.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'NeoNiche\\AppMonitor\\Http\\Controllers\\DiskFileLogController',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => NULL,
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'index',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => NULL,
            'parameters' => 
           array (
           ),

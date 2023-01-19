@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '6d291d3ee716d314f753c952ab7e2dcefb4cd588',
+        'reference' => '0822fcc5ca3d784cec26e8470b5caa960ade2591',
         'name' => 'neoniche/laravel-app-monitor',
         'dev' => true,
     ),
@@ -439,7 +439,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '6d291d3ee716d314f753c952ab7e2dcefb4cd588',
+            'reference' => '0822fcc5ca3d784cec26e8470b5caa960ade2591',
             'dev_requirement' => false,
         ),
         'nesbot/carbon' => array(
@@ -596,12 +596,12 @@
             'dev_requirement' => true,
         ),
         'phpstan/phpstan' => array(
-            'pretty_version' => '1.9.12',
-            'version' => '1.9.12.0',
+            'pretty_version' => '1.9.13',
+            'version' => '1.9.13.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpstan/phpstan',
             'aliases' => array(),
-            'reference' => '44a338ff0d5572c13fd77dfd91addb96e48c29f8',
+            'reference' => 'a0922426da3a7d0d9334e99a363f7f9f6e23e84f',
             'dev_requirement' => true,
         ),
         'phpstan/phpstan-deprecation-rules' => array(
