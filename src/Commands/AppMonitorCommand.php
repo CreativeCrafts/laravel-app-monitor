@@ -23,8 +23,8 @@ class AppMonitorCommand extends Command
                     'disk_name' => $diskName,
                     'file_count' => $fileCount,
                 ];
-                $this->info("Disk `{$diskName}` has `{$fileCount}` files");
-                $this->info('Logging metrics for `${diskName}` disk...');
+                $this->info("Disk {$diskName} has {$fileCount} files");
+                $this->info("Logging metrics for {$diskName} disk...");
                 LogDiskFileCount::execute($metrics);
             });
         $this->comment('All done!');

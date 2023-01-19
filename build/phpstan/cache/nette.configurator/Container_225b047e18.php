@@ -6,14 +6,14 @@
 // source: /Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-deprecation-rules/rules.neon
 // source: /Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-phpunit/extension.neon
 // source: /Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-phpunit/rules.neon
-// source: /Users/prince/Projects/NeoNiche/laravel-app-monitor/phpstan.neon
+// source: /Users/prince/Projects/NeoNiche/laravel-app-monitor/phpstan.neon.dist
 // source: array
 
 /** @noinspection PhpParamsInspection,PhpMethodMayBeStaticInspection */
 
 declare(strict_types=1);
 
-class Container_225b047e18 extends _PHPStan_980551bf2\Nette\DI\Container
+class Container_225b047e18 extends _PHPStan_b41751aaa\Nette\DI\Container
 {
 	protected $tags = [
 		'phpstan.parser.richParserNodeVisitor' => [
@@ -484,11 +484,11 @@ class Container_225b047e18 extends _PHPStan_980551bf2\Nette\DI\Container
 		'phpstan.typeSpecifier.staticMethodTypeSpecifyingExtension' => ['0449' => true],
 	];
 
-	protected $types = ['container' => '_PHPStan_980551bf2\Nette\DI\Container'];
+	protected $types = ['container' => '_PHPStan_b41751aaa\Nette\DI\Container'];
 	protected $aliases = [];
 
 	protected $wiring = [
-		'_PHPStan_980551bf2\Nette\DI\Container' => [['container']],
+		'_PHPStan_b41751aaa\Nette\DI\Container' => [['container']],
 		'PHPStan\Rules\Rule' => [
 			[
 				'0105',
@@ -1965,7 +1965,7 @@ class Container_225b047e18 extends _PHPStan_980551bf2\Nette\DI\Container
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-deprecation-rules/rules.neon',
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-phpunit/extension.neon',
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-phpunit/rules.neon',
-				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/phpstan.neon',
+				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/phpstan.neon.dist',
 			],
 			'composerAutoloaderProjectPaths' => [
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/phpstan/..',
@@ -2487,7 +2487,7 @@ class Container_225b047e18 extends _PHPStan_980551bf2\Nette\DI\Container
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-deprecation-rules/rules.neon',
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-phpunit/extension.neon',
 				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/phpstan/extension-installer/src/../../phpstan-phpunit/rules.neon',
-				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/phpstan.neon',
+				'/Users/prince/Projects/NeoNiche/laravel-app-monitor/phpstan.neon.dist',
 			],
 			$this->parameters['analysedPaths'],
 			[

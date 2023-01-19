@@ -32,9 +32,29 @@ This is the contents of the published config file:
 
 ```php
 return [
+  /**
+     * The name of the disk you want to monitor.
+     * default: 'local'
+     */
+    'disk_names' => [
+        'local',
+    ],
 ];
 ```
+You should set up a schedule to run the command `app-monitor:log` to record the disk metrics.
 
+```php
+// app/Console/Kernel.php
+use Neoniche\AppMonitor\Commands\AppMonitorCommand;
+
+class Kernel extends ConsoleKernel
+{
+    protected function schedule(Schedule $schedule)
+    {
+        $schedule->command(AppMonitorCommand::class)->daily();
+    }
+}
+```
 Optionally, you can publish the views using
 
 ```bash
@@ -43,9 +63,16 @@ php artisan vendor:publish --tag="app-monitor-views"
 
 ## Usage
 
+```bash
+If you wish to view the statistics that is logged to the database in a browser. You should add the macro below to your routes file.
+
 ```php
-$appMonitor = new NeoNiche\AppMonitor();
-echo $appMonitor->echoPhrase('Hello, NeoNiche!');
+
+// in a routes files
+
+Route::appMonitor('custom-monitor-url');
+
+Now, you can see all statics when browsing /custom-monitor-url/disk-file-logs. You can change the custom-monitor-url to whatever suits you. We highly recommand using the auth middleware for this route, so guests can't see any data regarding your disks.
 ```
 
 ## Testing
