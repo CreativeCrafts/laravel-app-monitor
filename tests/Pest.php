@@ -1,5 +1,10 @@
 <?php
 
-use NeoNiche\AppMonitor\Tests\TestCase;
+  use Illuminate\Support\Facades\Route;
+  use NeoNiche\AppMonitor\Tests\TestCase;
 
-uses(TestCase::class)->in(__DIR__);
+uses(TestCase::class)
+  ->beforeEach(function () {
+    Route::appMonitor();
+  })
+  ->in(__DIR__);
