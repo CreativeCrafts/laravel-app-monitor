@@ -12,4 +12,10 @@ All notable changes to `laravel-app-monitor` will be documented in this file.
 
 ## 0.3.1 - 2023-01-19
 
-- update composer requirements
+- updated composer requirements
+
+## 0.4.1 - 2023-01-19
+
+- updated composer requirements
+- added disk monitot log factory
+- updated pest test

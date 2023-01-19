@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '0822fcc5ca3d784cec26e8470b5caa960ade2591',
+        'reference' => '2e4ca9cda44a47d8641b5cc2adad2022ac12324b',
         'name' => 'neoniche/laravel-app-monitor',
         'dev' => true,
     ),
@@ -439,7 +439,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '0822fcc5ca3d784cec26e8470b5caa960ade2591',
+            'reference' => '2e4ca9cda44a47d8641b5cc2adad2022ac12324b',
             'dev_requirement' => false,
         ),
         'nesbot/carbon' => array(

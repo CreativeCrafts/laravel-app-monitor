@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="" tests="5" assertions="15" errors="0" warnings="0" failures="0" skipped="0" time="0.206265">
-    <testsuite name="P\Tests\ExampleTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.075714">
-      <testcase name="it can test" assertions="1" time="0.075714"/>
+  <testsuite name="" tests="5" assertions="17" errors="0" warnings="0" failures="0" skipped="0" time="0.199382">
+    <testsuite name="P\Tests\Feature\Http\Controllers\DiskFileLogControllerTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="1" assertions="4" errors="0" warnings="0" failures="0" skipped="0" time="0.095965">
+      <testcase name="it can show disk file log entries" assertions="4" time="0.095965"/>
     </testsuite>
-    <testsuite name="P\Tests\Feature\Commands\AppMonitorCommandTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="2" assertions="11" errors="0" warnings="0" failures="0" skipped="0" time="0.092891">
-      <testcase name="it can log file count for multiple disks" assertions="6" time="0.068103"/>
-      <testcase name="it can log file count for a disk" assertions="5" time="0.024787"/>
+    <testsuite name="P\Tests\Feature\Commands\AppMonitorCommandTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="2" assertions="11" errors="0" warnings="0" failures="0" skipped="0" time="0.078037">
+      <testcase name="it can log file count for a disk" assertions="5" time="0.052839"/>
+      <testcase name="it can log file count for multiple disks" assertions="6" time="0.025198"/>
     </testsuite>
-    <testsuite name="P\Tests\Feature\Actions\LogDiskFileCountTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.014169">
-      <testcase name="it can log disk metrics to the database" assertions="1" time="0.014169"/>
+    <testsuite name="P\Tests\ExampleTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.016136">
+      <testcase name="it can test" assertions="1" time="0.016136"/>
     </testsuite>
-    <testsuite name="P\Tests\Feature\Http\Controllers\DiskFileLogControllerTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="1" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.023491">
-      <testcase name="it can show disk file log entries" assertions="2" time="0.023491"/>
+    <testsuite name="P\Tests\Feature\Actions\LogDiskFileCountTest" file="/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/pestphp/pest/src/Factories/TestCaseFactory.php(223) : eval()'d code" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.009245">
+      <testcase name="it can log disk metrics to the database" assertions="1" time="0.009245"/>
     </testsuite>
   </testsuite>
 </testsuites>

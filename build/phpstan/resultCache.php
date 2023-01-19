@@ -1,7 +1,7 @@
 <?php declare(strict_types = 1);
 
 return [
-	'lastFullAnalysisTime' => 1674120705,
+	'lastFullAnalysisTime' => 1674124557,
 	'meta' => array (
   'cacheVersion' => 'v10-collectedData',
   'phpstanVersion' => '1.9.13',
@@ -18,7 +18,7 @@ return [
   ),
   'composerLocks' => 
   array (
-    '/Users/prince/Projects/NeoNiche/laravel-app-monitor/composer.lock' => '61a5267e07d11008ff0ea68b55c1174f9d8d16c9',
+    '/Users/prince/Projects/NeoNiche/laravel-app-monitor/composer.lock' => 'd9cc02cd673f143a40a2b223d2e3037e7373dc24',
   ),
   'composerInstalled' => 
   array (
@@ -1909,9 +1909,9 @@ return [
     array (
     ),
   ),
-  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/database/factories/ModelFactory.php' => 
+  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/database/factories/DiskMonitorLogFactory.php' => 
   array (
-    'fileHash' => '2e980809a37463dbba8753f9de074e2b2b56892f',
+    'fileHash' => '288dc1c056dbffec2b89960f2ffd209fa8ee1111',
     'dependentFiles' => 
     array (
     ),
@@ -1956,15 +1956,76 @@ return [
   ),
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Models/DiskMonitorLog.php' => 
   array (
-    'fileHash' => 'dff5dd67b5c54ff7fdef630176e564f33fa3684a',
+    'fileHash' => '88ced834584e88a2c3486e709bd449b1421dabbe',
     'dependentFiles' => 
     array (
-      0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Actions/LogDiskFileCount.php',
-      1 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Http/Controllers/DiskFileLogController.php',
+      0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/database/factories/DiskMonitorLogFactory.php',
+      1 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Actions/LogDiskFileCount.php',
+      2 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Http/Controllers/DiskFileLogController.php',
     ),
   ),
 ),
 	'exportedNodesCallback' => static function (): array { return array (
+  '/Users/prince/Projects/NeoNiche/laravel-app-monitor/database/factories/DiskMonitorLogFactory.php' => 
+  array (
+    0 => 
+    \PHPStan\Dependency\ExportedNode\ExportedClassNode::__set_state(array(
+       'name' => 'NeoNiche\\AppMonitor\\Database\\Factories\\DiskMonitorLogFactory',
+       'phpDoc' => NULL,
+       'abstract' => false,
+       'final' => false,
+       'extends' => 'Illuminate\\Database\\Eloquent\\Factories\\Factory',
+       'implements' => 
+      array (
+      ),
+       'usedTraits' => 
+      array (
+      ),
+       'traitUseAdaptations' => 
+      array (
+      ),
+       'statements' => 
+      array (
+        0 => 
+        \PHPStan\Dependency\ExportedNode\ExportedPropertiesNode::__set_state(array(
+           'names' => 
+          array (
+            0 => 'model',
+          ),
+           'phpDoc' => NULL,
+           'type' => NULL,
+           'public' => false,
+           'private' => false,
+           'static' => false,
+           'readonly' => false,
+           'attributes' => 
+          array (
+          ),
+        )),
+        1 => 
+        \PHPStan\Dependency\ExportedNode\ExportedMethodNode::__set_state(array(
+           'name' => 'definition',
+           'phpDoc' => NULL,
+           'byRef' => false,
+           'public' => true,
+           'private' => false,
+           'abstract' => false,
+           'final' => false,
+           'static' => false,
+           'returnType' => 'array',
+           'parameters' => 
+          array (
+          ),
+           'attributes' => 
+          array (
+          ),
+        )),
+      ),
+       'attributes' => 
+      array (
+      ),
+    )),
+  ),
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Actions/LogDiskFileCount.php' => 
   array (
     0 => 
@@ -2227,6 +2288,7 @@ return [
          'namespace' => 'NeoNiche\\AppMonitor\\Models',
          'uses' => 
         array (
+          'hasfactory' => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
           'model' => 'Illuminate\\Database\\Eloquent\\Model',
         ),
          'constUses' => 
@@ -2241,6 +2303,7 @@ return [
       ),
        'usedTraits' => 
       array (
+        0 => 'Illuminate\\Database\\Eloquent\\Factories\\HasFactory',
       ),
        'traitUseAdaptations' => 
       array (
