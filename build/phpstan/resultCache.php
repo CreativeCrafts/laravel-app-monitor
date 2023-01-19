@@ -1,10 +1,10 @@
 <?php declare(strict_types = 1);
 
 return [
-	'lastFullAnalysisTime' => 1674030769,
+	'lastFullAnalysisTime' => 1674120705,
 	'meta' => array (
   'cacheVersion' => 'v10-collectedData',
-  'phpstanVersion' => '1.9.12',
+  'phpstanVersion' => '1.9.13',
   'phpVersion' => 80201,
   'projectConfig' => '{parameters: {level: 4, paths: [/Users/prince/Projects/NeoNiche/laravel-app-monitor/src, /Users/prince/Projects/NeoNiche/laravel-app-monitor/config, /Users/prince/Projects/NeoNiche/laravel-app-monitor/database], tmpDir: /Users/prince/Projects/NeoNiche/laravel-app-monitor/build/phpstan, checkOctaneCompatibility: true, checkModelProperties: true, checkMissingIterableValueType: false}}',
   'analysedPaths' => 
@@ -18,7 +18,7 @@ return [
   ),
   'composerLocks' => 
   array (
-    '/Users/prince/Projects/NeoNiche/laravel-app-monitor/composer.lock' => 'ef9d058728a39f3e245575d6dbde72a419482e1a',
+    '/Users/prince/Projects/NeoNiche/laravel-app-monitor/composer.lock' => '61a5267e07d11008ff0ea68b55c1174f9d8d16c9',
   ),
   'composerInstalled' => 
   array (
@@ -796,14 +796,14 @@ return [
         ),
         'phpstan/phpstan' => 
         array (
-          'pretty_version' => '1.9.12',
-          'version' => '1.9.12.0',
+          'pretty_version' => '1.9.13',
+          'version' => '1.9.13.0',
           'type' => 'library',
           'install_path' => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/vendor/composer/../phpstan/phpstan',
           'aliases' => 
           array (
           ),
-          'reference' => '44a338ff0d5572c13fd77dfd91addb96e48c29f8',
+          'reference' => 'a0922426da3a7d0d9334e99a363f7f9f6e23e84f',
           'dev_requirement' => true,
         ),
         'phpstan/phpstan-deprecation-rules' => 
@@ -1933,14 +1933,14 @@ return [
   ),
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/AppMonitorServiceProvider.php' => 
   array (
-    'fileHash' => '940d8e9a460540f35ec4d3596f67889e9a816f80',
+    'fileHash' => '6fa2a7b53b3faff04530bd5f4facf4649d9f9640',
     'dependentFiles' => 
     array (
     ),
   ),
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Commands/AppMonitorCommand.php' => 
   array (
-    'fileHash' => 'c63980c7ca9ff45ebbe8fed6bb03b41754709b40',
+    'fileHash' => '708f7b7a6dc61f583cc35310d04e7aaceeca1f42',
     'dependentFiles' => 
     array (
       0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/AppMonitorServiceProvider.php',
@@ -1948,7 +1948,7 @@ return [
   ),
   '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/Http/Controllers/DiskFileLogController.php' => 
   array (
-    'fileHash' => '084d2fad20743cc2b36bea2342521d14435dbfed',
+    'fileHash' => 'e8bbef98b9ec08a748480a5b401382eb56f8dd29',
     'dependentFiles' => 
     array (
       0 => '/Users/prince/Projects/NeoNiche/laravel-app-monitor/src/AppMonitorServiceProvider.php',
