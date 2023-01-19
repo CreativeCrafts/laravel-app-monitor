@@ -2,12 +2,12 @@
 
 namespace NeoNiche\AppMonitor\Actions;
 
-  use NeoNiche\AppMonitor\Models\DiskMonitorLog;
+use NeoNiche\AppMonitor\Models\DiskMonitorLog;
 
-  class LogDiskFileCount
-  {
-      public static function execute(array $metrics): void
-      {
-          DiskMonitorLog::create($metrics);
-      }
-  }
+class LogDiskFileCount
+{
+    public static function execute(array $metrics): void
+    {
+        DiskMonitorLog::create($metrics);
+    }
+}
